@@ -9,7 +9,7 @@ import Orders from './pages/Orders'
 import PlaceOrder from './pages/PlaceOrder'
 import Product from './pages/Product'
 import Cart from './pages/Cart'
-import NavBar from './component/NavBar'
+import Navbar from './component/Navbar'
 import Footer from './component/Footer'
 import SearchBar from './component/SearchBar'
 import Verify from './pages/Verify'
@@ -21,7 +21,7 @@ const App = () => {
   return (
   <div className='px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw]'>
     <ToastContainer  />
-    <NavBar/>
+    <Navbar/>
     <SearchBar/>
     <Routes>
       <Route path='/' element={<Home/>} />
